@@ -338,6 +338,13 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
   letter-spacing: 0.02em; font-family: var(--font-sans); white-space: nowrap;
 }
 
+.work-card__cover-img {
+  width: 100%; height: 100%; object-fit: cover;
+  object-position: center top; display: block;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.work-card:hover .work-card__cover-img { transform: scale(1.03); }
+
 /* Card info */
 .work-card__info {
   padding: var(--sp-5) var(--sp-5) var(--sp-6);
@@ -464,7 +471,7 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <a href="/cdn-cgi/l/email-protection#731b161f1f1c33171a1f1616035d1716001a141d" class="nav__cta">Get in touch</a>
+    <a href="/cdn-cgi/l/email-protection#79111c151516391d10151c1c09571d1c0a101e17" class="nav__cta">Get in touch</a>
     <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span>
     </button>
@@ -511,37 +518,7 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
       <a href="drect-case-study.html" class="work-card fade-up" aria-label="Drect case study">
         <div class="work-card__preview">
           <div class="work-card__preview-bg">
-            <div class="project-visual pv-drct">
-              <div class="pv-drct-phone pv-drct-phone--left">
-                <div class="pv-drct-map">
-                  <div class="pv-drct-greeting"><span></span><span></span></div>
-                  <div class="pv-drct-map-area">
-                    <div class="pv-drct-map-lines"><span></span><span></span><span></span><span></span></div>
-                  </div>
-                  <div class="pv-drct-map-bottom"></div>
-                </div>
-              </div>
-              <div class="pv-drct-phone pv-drct-phone--center">
-                <div class="pv-drct-screen">
-                  <div class="pv-drct-greeting"><span></span><span></span></div>
-                  <div class="pv-drct-categories">
-                    <div class="pv-drct-cat"><div class="pv-drct-cat-icon"></div><div class="pv-drct-cat-label"></div></div>
-                    <div class="pv-drct-cat"><div class="pv-drct-cat-icon"></div><div class="pv-drct-cat-label"></div></div>
-                    <div class="pv-drct-cat"><div class="pv-drct-cat-icon"></div><div class="pv-drct-cat-label"></div></div>
-                    <div class="pv-drct-cat"><div class="pv-drct-cat-icon"></div><div class="pv-drct-cat-label"></div></div>
-                  </div>
-                  <div class="pv-drct-cta"><span></span></div>
-                </div>
-              </div>
-              <div class="pv-drct-phone pv-drct-phone--right">
-                <div class="pv-drct-confirmed">
-                  <div class="pv-drct-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-                  <div class="pv-drct-confirmed-text"><span></span><span></span></div>
-                  <div class="pv-drct-eta"><span></span></div>
-                </div>
-              </div>
-              <div class="pv-drct-badge">12 wireframes → 50+ screens</div>
-            </div>
+            <img src="Thumbnail.png" alt="Drect — On-demand doctor booking app screens" class="work-card__cover-img">
           </div>
         </div>
         <div class="work-card__info">
@@ -566,19 +543,7 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
       <a href="tokko-case-study.html" class="work-card fade-up" aria-label="Tokko case study">
         <div class="work-card__preview">
           <div class="work-card__preview-bg">
-            <div class="project-visual pv-tokko">
-              <div class="pv-tokko-ui">
-                <div class="pv-tokko-panel">
-                  <div class="pv-tokko-panel-header"><span></span><span></span></div>
-                  <div class="pv-tokko-lines"><span></span><span></span><span></span><span></span><span></span></div>
-                </div>
-                <div class="pv-tokko-panel">
-                  <div class="pv-tokko-panel-header"><span></span><span></span></div>
-                  <div class="pv-tokko-lines"><span></span><span></span><span></span></div>
-                </div>
-              </div>
-              <div class="pv-tokko-badge">72% tokens saved</div>
-            </div>
+            <img src="Screen_1.png" alt="Tokko — AI prompt compression tool" class="work-card__cover-img">
           </div>
         </div>
         <div class="work-card__info">
@@ -639,8 +604,9 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
           <span class="tool-tag">React</span>
           <span class="tool-tag">Next.js</span>
           <span class="tool-tag">Vercel</span>
-          <span class="tool-tag">Supabase</span>
-          <span class="tool-tag">Cursor</span>
+          <span class="tool-tag">Framer</span>
+          <span class="tool-tag">Notion</span>
+          <span class="tool-tag">After Effects</span>
         </div>
       </div>
     </div>
