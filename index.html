@@ -458,13 +458,13 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
 
 <nav class="nav" role="navigation" aria-label="Main navigation">
   <div class="container nav__inner">
-    <a href="#" class="nav__logo">dileep edalath</a>
+    <a href="#" class="nav__logo">Dileep Edalath</a>
     <ul class="nav__center" id="navLinks" role="list">
       <li><a href="#works">Work</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <a href="mailto:hello@dileep.design" class="nav__cta">Get in touch</a>
+    <a href="/cdn-cgi/l/email-protection#731b161f1f1c33171a1f1616035d1716001a141d" class="nav__cta">Get in touch</a>
     <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span>
     </button>
@@ -620,7 +620,7 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
 
       <div class="about__body fade-up delay-1">
         <p class="about__bio">
-          Hi, I'm <strong>Dileep</strong>. A self-taught product designer based in Bangalore. I focus on taking messy, early-stage ideas and turning them into clear, usable products.
+          Hi, I'm <strong>Dileep</strong>. A self-taught product designer from Kerala based in Bangalore. I focus on taking messy, early-stage ideas and turning them into clear, usable products.
         </p>
         <p class="about__bio">
           I like working on things where the problem isn't fully defined yet. Where there's no playbook and you have to figure it out. I start by understanding what actually matters, then design something that makes sense for real people using it.
@@ -639,9 +639,8 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
           <span class="tool-tag">React</span>
           <span class="tool-tag">Next.js</span>
           <span class="tool-tag">Vercel</span>
-          <span class="tool-tag">Framer</span>
-          <span class="tool-tag">Notion</span>
-          <span class="tool-tag">After Effects</span>
+          <span class="tool-tag">Supabase</span>
+          <span class="tool-tag">Cursor</span>
         </div>
       </div>
     </div>
@@ -669,7 +668,7 @@ body > *:not(.bg-lines) { position: relative; z-index: 1; }
 </footer>
 </main>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 document.documentElement.classList.add('js-ready');
 const toggle = document.getElementById('navToggle');
 const links = document.getElementById('navLinks');
@@ -702,7 +701,4 @@ document.querySelectorAll('.work-card').forEach(card => {
 const sections = document.querySelectorAll('section[id]');
 const navAs = links.querySelectorAll('a');
 window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 200) current = s.getAttribute('id'); });
-  navAs.forEach(a => {
-    a.classList.
+  let current =
